@@ -5,7 +5,7 @@ import Titulo from '../../components/Titulo'
 import { Descricao, BotaoTema, SidebarContainer } from './style'
 
 type Props = {
-  trocaTema: () => void;
+  trocaTema: () => void
 }
 
 const Sidebar = (props: Props) => (
