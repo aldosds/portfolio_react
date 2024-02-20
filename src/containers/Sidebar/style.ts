@@ -4,6 +4,10 @@ import { P } from '../../components/Paragrafo/styles'
 export const Descricao = styled(P)`
   margin-top: 24px;
   margin-bottom: 40px;
+
+  @media (max-width: 768px) {
+    font-size: 16px;
+  }
 `
 export const BotaoTema = styled.button`
   border-radius: 12px;
